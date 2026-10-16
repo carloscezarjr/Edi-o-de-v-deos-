@@ -300,7 +300,7 @@ def main():
                             '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], stdout=subprocess.PIPE)
     enc = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                             '-ss', f'{t0:.3f}', '-t', f'{t1 - t0:.3f}', '-i', f'{pasta}/mix.wav',
-                            '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-crf', '20', '-preset', 'medium', '-pix_fmt', 'yuv420p',
+                            '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-crf', '20', '-preset', 'medium', '-pix_fmt', 'yuv420p', '-color_primaries', 'bt709', '-color_trc', 'bt709', '-colorspace', 'bt709',
                             '-c:a', 'aac', '-b:a', '192k', '-shortest', '-movflags', '+faststart', saida_mp4], stdin=subprocess.PIPE)
     nf = int(round((t1 - t0) * FPS)); tam = W * H * 3; ultimo = None
     for i in range(nf):
