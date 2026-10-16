@@ -1,0 +1,619 @@
+{
+ "gancho": {
+  "l1": "Acabou a escala 6x1.",
+  "l2": "E o gerente?",
+  "fim": 3.2
+ },
+ "hud": [
+  {
+   "ini": 0,
+   "fim": 3.4,
+   "rosto": [
+    330,
+    690,
+    420,
+    600
+   ],
+   "rotulo": ""
+  }
+ ],
+ "glitches": [
+  0.0,
+  5.41,
+  5.86,
+  13.42,
+  21.04,
+  24.87,
+  28.85,
+  31.08,
+  43.76,
+  51.35,
+  57.24,
+  58.4,
+  61.91,
+  63.52,
+  75.74,
+  83.9
+ ],
+ "animacoes": [
+  {
+   "tipo": "icone",
+   "icone": "spiral_calendar",
+   "ini": 0.7,
+   "fim": 3.2,
+   "pos": [
+    855,
+    300
+   ],
+   "tam": 150
+  },
+  {
+   "tipo": "impacto",
+   "ini": 5.41,
+   "fim": 6.85,
+   "texto": "ACABOU",
+   "tam": 170
+  },
+  {
+   "tipo": "icone",
+   "icone": "cross_mark",
+   "ini": 5.45,
+   "fim": 7.6,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "red_question_mark",
+   "ini": 9.7,
+   "fim": 11.3,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "megaphone",
+   "ini": 11.5,
+   "fim": 13.4,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "stopwatch",
+   "ini": 13.9,
+   "fim": 16.2,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "briefcase",
+   "ini": 17.0,
+   "fim": 19.3,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "lista",
+   "ini": 20.0,
+   "fim": 24.55,
+   "titulo": "NA PRÁTICA",
+   "itens": [
+    [
+     "Sem hora extra",
+     20.11
+    ],
+    [
+     "Sem intervalo obrigatório",
+     21.11
+    ],
+    [
+     "Sem limite de horas",
+     22.93
+    ]
+   ]
+  },
+  {
+   "tipo": "icone",
+   "icone": "alarm_clock",
+   "ini": 20.05,
+   "fim": 22.85,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "hot_beverage",
+   "ini": 21.05,
+   "fim": 24.5,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "hourglass_done",
+   "ini": 22.88,
+   "fim": 24.5,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "numero",
+   "ini": 24.87,
+   "fim": 26.75,
+   "passos": [
+    [
+     24.97,
+     0,
+     50,
+     "HORAS / SEMANA"
+    ]
+   ]
+  },
+  {
+   "tipo": "impacto",
+   "ini": 28.85,
+   "fim": 31.1,
+   "texto": "GERENTE\nDE VERDADE?",
+   "tam": 120
+  },
+  {
+   "tipo": "icone",
+   "icone": "face_with_raised_eyebrow",
+   "ini": 28.9,
+   "fim": 31.1,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "lista",
+   "ini": 31.69,
+   "fim": 47.3,
+   "titulo": "GERENTE DE VERDADE",
+   "itens": [
+    [
+     "Sem controle de jornada",
+     31.79
+    ],
+    [
+     "Lidera a equipe",
+     39.13
+    ],
+    [
+     "Ganha 40% a mais",
+     40.55
+    ],
+    [
+     "Poder de gestão",
+     44.17
+    ]
+   ]
+  },
+  {
+   "tipo": "icone",
+   "icone": "hourglass_done",
+   "ini": 31.75,
+   "fim": 35.3,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "busts_in_silhouette",
+   "ini": 39.05,
+   "fim": 41.0,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "chart_increasing",
+   "ini": 40.5,
+   "fim": 43.5,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "crown",
+   "ini": 44.1,
+   "fim": 47.2,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "warning",
+   "ini": 47.5,
+   "fim": 49.2,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "classical_building",
+   "ini": 49.4,
+   "fim": 54.0,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "carimbo",
+   "ini": 51.35,
+   "fim": 53.95,
+   "sup": "SEGUNDO O TST",
+   "texto": "TEM DIREITO",
+   "inf": "À FOLGA SEMANAL"
+  },
+  {
+   "tipo": "icone",
+   "icone": "beach_with_umbrella",
+   "ini": 52.6,
+   "fim": 54.2,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "calendar",
+   "ini": 54.8,
+   "fim": 57.0,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "numero",
+   "ini": 58.4,
+   "fim": 63.3,
+   "passos": [
+    [
+     58.49,
+     0,
+     1,
+     "FOLGA / SEMANA"
+    ],
+    [
+     61.91,
+     1,
+     2,
+     "FOLGAS / SEMANA"
+    ]
+   ]
+  },
+  {
+   "tipo": "icone",
+   "icone": "spiral_calendar",
+   "ini": 58.5,
+   "fim": 61.8,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "beach_with_umbrella",
+   "ini": 61.95,
+   "fim": 63.3,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "thinking_face",
+   "ini": 62.8,
+   "fim": 65.2,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "balance_scale",
+   "ini": 65.9,
+   "fim": 68.0,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "scroll",
+   "ini": 68.3,
+   "fim": 71.5,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "light_bulb",
+   "ini": 76.4,
+   "fim": 78.3,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "pilula",
+   "ini": 78.33,
+   "fim": 80.75,
+   "linhas": [
+    "REVISE A ESCALA",
+    "DOS GERENTES"
+   ]
+  },
+  {
+   "tipo": "icone",
+   "icone": "memo",
+   "ini": 78.4,
+   "fim": 80.7,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "briefcase",
+   "ini": 81.0,
+   "fim": 83.3,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "comentario",
+   "ini": 83.4,
+   "fim": 85.6,
+   "texto": "Me chama no direct",
+   "y": 330
+  },
+  {
+   "tipo": "icone",
+   "icone": "incoming_envelope",
+   "ini": 83.6,
+   "fim": 85.6,
+   "pos": [
+    230,
+    1280
+   ],
+   "tam": 220
+  },
+  {
+   "tipo": "icone",
+   "icone": "speech_balloon",
+   "ini": 84.5,
+   "fim": 85.6,
+   "pos": [
+    850,
+    1280
+   ],
+   "tam": 220
+  }
+ ],
+ "sons": [
+  [
+   0.0,
+   "sweep",
+   -16
+  ],
+  [
+   0.75,
+   "bip",
+   -20
+  ],
+  [
+   5.41,
+   "drop",
+   -11
+  ],
+  [
+   9.7,
+   "bip",
+   -20
+  ],
+  [
+   11.5,
+   "bip",
+   -20
+  ],
+  [
+   13.9,
+   "bip",
+   -20
+  ],
+  [
+   17.0,
+   "bip",
+   -20
+  ],
+  [
+   20.01,
+   "bip",
+   -19
+  ],
+  [
+   21.01,
+   "bip",
+   -19
+  ],
+  [
+   22.83,
+   "bip",
+   -19
+  ],
+  [
+   24.87,
+   "glitch",
+   -17
+  ],
+  [
+   25.67,
+   "bip",
+   -19
+  ],
+  [
+   28.85,
+   "sweep",
+   -14
+  ],
+  [
+   31.69,
+   "bip",
+   -19
+  ],
+  [
+   39.03,
+   "bip",
+   -19
+  ],
+  [
+   40.45,
+   "bip",
+   -19
+  ],
+  [
+   44.07,
+   "bip",
+   -19
+  ],
+  [
+   47.5,
+   "bip",
+   -20
+  ],
+  [
+   49.4,
+   "bip",
+   -20
+  ],
+  [
+   51.35,
+   "drop",
+   -11
+  ],
+  [
+   54.8,
+   "bip",
+   -20
+  ],
+  [
+   58.4,
+   "glitch",
+   -17
+  ],
+  [
+   61.91,
+   "ding",
+   -16
+  ],
+  [
+   62.8,
+   "bip",
+   -20
+  ],
+  [
+   65.9,
+   "bip",
+   -20
+  ],
+  [
+   68.3,
+   "bip",
+   -20
+  ],
+  [
+   76.4,
+   "bip",
+   -20
+  ],
+  [
+   78.25,
+   "sweep",
+   -16
+  ],
+  [
+   81.0,
+   "bip",
+   -20
+  ],
+  [
+   83.4,
+   "teclado",
+   -22
+  ],
+  [
+   84.45,
+   "clique",
+   -16
+  ]
+ ]
+}
