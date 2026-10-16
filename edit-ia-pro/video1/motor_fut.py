@@ -133,9 +133,9 @@ def f_numero(a, t, fr):
     key = ('num', val, rot)
     if key not in _cache:
         n = texto_neon(str(val), orbitron(240), cor=BRANCO, brilho=MAGENTA, raio=26, forca=1.5)
-        l = texto_neon(rot, mono(46), cor=CIANO, brilho=CIANO, raio=8, forca=0.6)
-        out = Image.new('RGBA', (max(n.width, l.width), n.height + l.height - 80))
-        out.alpha_composite(n, ((out.width - n.width) // 2, 0)); out.alpha_composite(l, ((out.width - l.width) // 2, n.height - 80))
+        l = texto_neon(rot, mono(50), cor=CIANO, brilho=CIANO, raio=8, forca=0.6)
+        out = Image.new("RGBA", (max(n.width, l.width), n.height + l.height - 50))
+        out.alpha_composite(n, ((out.width - n.width) // 2, 0)); out.alpha_composite(l, ((out.width - l.width) // 2, n.height - 50))
         _cache[key] = out
     img = escala(_cache[key], 0.8 + 0.2 * ease(lt / 0.25))
     img = fantasma_rgb(img, entrada_falha(t - (t0 - 0.1)))
