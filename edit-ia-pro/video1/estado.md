@@ -5,3 +5,5 @@
 - Correções de legenda: "não adianta reclamar", "hora extra", "se os tribunais mudarem", "lidera a equipe", "dá ordem, toma decisão".
 - Corte v1 APROVADO (1:25).
 - Estilo proposto: legenda Impacto (y~1430, abaixo da boca), gancho Manchete, amarelo #FFC400, zoom nos cortes, animações médias. Ganchos: (1) "Acabou a escala 6x1. / E o gerente?" (2) "Gerente também tem / direito à folga?". Aguardando escolha + destino do "me chama".
+- APROVADO: gancho 1 "Acabou a escala 6x1. / E o gerente?" (Manchete), legenda Impacto, amarelo, zoom nos cortes, animações médias (lista de 9 momentos aprovada), chamada "Me chama no direct".
+- Amostra (0-10s) feita: gancho + legenda Impacto y1450 + animação ACABOU + whoosh/impacto. Aguardando aprovação.

@@ -1,0 +1,19 @@
+{
+ "gancho": {"l1": "Acabou a escala 6x1.", "l2": "E o gerente?", "fim": 3.2},
+ "animacoes": [
+  {"tipo": "impacto", "ini": 5.41, "fim": 6.85, "texto": "ACABOU"},
+  {"tipo": "lista", "ini": 20.0, "fim": 24.55, "titulo": "NA PRÁTICA",
+   "itens": [["Sem hora extra", 20.11], ["Sem intervalo obrigatório", 21.11], ["Sem limite de horas", 22.93]]},
+  {"tipo": "numero", "ini": 24.87, "fim": 26.75, "passos": [[24.97, 0, 50, "HORAS"]]},
+  {"tipo": "impacto", "ini": 28.85, "fim": 31.1, "texto": "GERENTE\nDE VERDADE?", "tam": 150},
+  {"tipo": "lista", "ini": 31.69, "fim": 47.3, "titulo": "GERENTE DE VERDADE",
+   "itens": [["Sem controle de jornada", 31.79], ["Lidera a equipe", 39.13], ["Ganha 40% a mais", 40.55], ["Poder de gestão", 44.17]]},
+  {"tipo": "carimbo", "ini": 51.35, "fim": 53.95, "sup": "SEGUNDO O TST", "texto": "TEM DIREITO", "inf": "À FOLGA SEMANAL"},
+  {"tipo": "numero", "ini": 58.4, "fim": 63.3, "passos": [[58.49, 0, 1, "FOLGA POR SEMANA"], [61.91, 1, 2, "FOLGAS POR SEMANA"]]},
+  {"tipo": "pilula", "ini": 78.33, "fim": 80.75, "linhas": ["REVISE A ESCALA", "DOS SEUS GERENTES"]},
+  {"tipo": "comentario", "ini": 83.4, "fim": 85.6, "texto": "Me chama no direct", "y": 330}
+ ],
+ "sons": [[0.0,"whoosh",-16],[5.41,"impacto",-11],[20.01,"pop",-18],[21.01,"pop",-18],[22.83,"pop",-18],[25.67,"pop",-16],
+          [28.85,"whoosh",-14],[31.69,"pop",-18],[39.03,"pop",-18],[40.45,"pop",-18],[44.07,"pop",-18],[51.35,"seco",-11],
+          [58.4,"pop",-17],[61.91,"ding",-16],[78.25,"swish",-16],[83.4,"teclado",-22],[84.45,"clique",-16]]
+}
