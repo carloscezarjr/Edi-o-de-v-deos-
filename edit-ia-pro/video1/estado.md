@@ -11,3 +11,4 @@
 - Amostra v2 APROVADA. Montando vídeo completo.
 - FINAL entregue: gerente-6x1-editado.mp4 (1:25,6; 0,8 s de quadro final congelado pra chamada), -14 LUFS, 9 animações, 17 sons.
 - ESTILO APROVADO (usar em "mesmo estilo do último"): legenda Impacto y1450 abaixo da boca; gancho Manchete; amarelo #FFC400; zoom 1,00/1,08 alternado nos cortes; animações médias (impacto, lista com check em cartão escuro que cresce, número contando, carimbo, pílula amarela, comentário digitado); cor HDR->SDR com tonemap hable; chamada "Me chama no direct".
+- Pedido: versão mais 'futurista'. Proposto estilo Futurista (neon ciano/magenta, vidro fosco, HUD/mira, glitch nos cortes, fonte Orbitron/Space Grotesk/Space Mono, cor de cinema). Prévia enviada, aguardando ok.
