@@ -14,3 +14,5 @@
 - Pedido: versão mais 'futurista'. Proposto estilo Futurista (neon ciano/magenta, vidro fosco, HUD/mira, glitch nos cortes, fonte Orbitron/Space Grotesk/Space Mono, cor de cinema). Prévia enviada, aguardando ok.
 - Futurista + ícones 3D (Fluent 3D, MIT): ícones 220px na altura do ombro (x 230/850, y 1280), pulo+giro+flutuação; 16 falhas digitais; sons eletrônicos. Amostra fut enviada, aguardando ok.
 - Amostra Futurista 3D APROVADA. Montando vídeo completo.
+- FINAL FUTURISTA entregue: fut/gerente-6x1-futurista.mp4 (1:25,6), -14 LUFS, ~30 ícones 3D, 16 falhas digitais.
+- ESTILO APROVADO ATUAL ("mesmo estilo do último"): Futurista (gradação azulada + vinheta, legenda neon Orbitron y1450, gancho em painel de vidro, HUD/REC no começo, listas/carimbo/pílula/comentário em vidro neon ciano/magenta, números neon magenta, glitch em cortes e entradas fortes, ícones 3D Fluent 220px no ombro x230/850 y1280, sons eletrônicos bip/sweep/drop/glitch). Cor HDR->SDR hable.
