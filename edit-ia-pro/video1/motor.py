@@ -64,15 +64,19 @@ def an_impacto(a, t):
 
 def an_lista(a, t):
     lt = t - a['ini']; itens = a['itens']
-    w, pad_x, linha = 800, 34, 92
-    tit_h = 76 if a.get('titulo') else 0
-    h = 30 + tit_h + linha * len(itens) + 20
+    w, pad_x, linha = 800, 34, 104
+    tit_h = 80 if a.get('titulo') else 0
+    vis = 0.0
+    for _, ti in itens:
+        vis += ease((t - ti + 0.1) / 0.2) if t >= ti - 0.1 else 0
+    vis = max(vis, 1.0)
+    h = int(30 + tit_h + linha * vis + 20)
     base, p = cartao(w, h)
     k_card = min(1, lt / 0.2) * saida(t, a)
     d = ImageDraw.Draw(base)
     if a.get('titulo'):
-        d.text((p + pad_x, p + 30 + tit_h / 2 - 6), a['titulo'], font=mont(42, 900), fill=ACC, anchor='lm')
-    fonte = mont(46, 800)
+        d.text((p + pad_x, p + 30 + tit_h / 2 - 6), a['titulo'], font=mont(48, 900), fill=ACC, anchor='lm')
+    fonte = mont(56, 800)
     for i, (txt, ti) in enumerate(itens):
         it = t - ti + 0.1
         if it < 0: continue
@@ -82,7 +86,7 @@ def an_lista(a, t):
         camada = Image.new('RGBA', base.size); dc = ImageDraw.Draw(camada)
         arco = ease((it - 0.1) / 0.2)
         if arco > 0:
-            dc.arc((cx_ck - 24, cy - 24, cx_ck + 24, cy + 24), -90, -90 + 360 * arco, fill=ACC, width=6)
+            dc.arc((cx_ck - 26, cy - 26, cx_ck + 26, cy + 26), -90, -90 + 360 * arco, fill=ACC, width=6)
         if it > 0.3:
             dc.ellipse((cx_ck - 24, cy - 24, cx_ck + 24, cy + 24), fill=ACC)
             dc.line([(cx_ck - 11, cy + 1), (cx_ck - 3, cy + 10), (cx_ck + 12, cy - 9)], fill=PRETO, width=7, joint='curve')
