@@ -1,0 +1,5 @@
+# Ferramentas baixadas (fontes, modelos) e arquivos de vídeo pesados
+edit-ia-pro/ferramentas/
+*.mp4
+*.mov
+*.wav
